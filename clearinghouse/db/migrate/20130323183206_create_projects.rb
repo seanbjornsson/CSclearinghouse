@@ -1,8 +1,8 @@
 class CreateProjects < ActiveRecord::Migration
   def change
     create_table :projects do |t|
-      t.title :string
-      t.description :string
+      t.string 'title'
+      t.text 'description'
       t.timestamps
     end
   end
