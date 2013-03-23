@@ -3,5 +3,12 @@
 #
 # Examples:
 #
+	projects = [{:title => 'Project1',:description => 'Test project1'},
+								{:title => 'Project2',:description => 'Test project2'},
+								{:title => 'Project3',:description => 'Test project3'}]
+
+	projects.each do |project|
+		Project.create!(project)
+	end
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
