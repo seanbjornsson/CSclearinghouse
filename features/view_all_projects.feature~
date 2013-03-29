@@ -8,7 +8,7 @@ Background: projects on website
 
 	Given the following projects exist: 
 
-		| title       | description    |
+	| title       | description    |
     | Project4    | Test Project 4 |
     | Project5    | Test Project 5 |
 
